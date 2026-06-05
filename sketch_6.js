@@ -380,6 +380,6 @@ function mouseClicked() {
 
   // lápide 
   if (mouseX > 1028 && mouseX < 1073 && mouseY > 370 && mouseY < 450) {
-    window.location.href = 'index_1.html';
+    window.location.href = 'index.html';
   }
 }
