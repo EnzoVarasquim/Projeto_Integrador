@@ -277,6 +277,6 @@ function mouseClicked(){
   let astronautaY = height / 2 + 50;
 
   if( mouseX > astronautaX - 50 && mouseX < astronautaX + 50 && mouseY > astronautaY - 70 && mouseY < astronautaY + 80){
-    window.location.href = "index_1.html";
+    window.location.href = "index.html";
   }
 }
