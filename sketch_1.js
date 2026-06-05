@@ -6,9 +6,9 @@ let trocando = false;
 let musica;
 
 function preload() {
-  backgrounds[0] = loadImage('img/altar.png');
-  backgrounds[1] = loadImage('img/crypto.png');
-  backgrounds[2] = loadImage('img/skyrim.jpg');
+  backgrounds[0] = loadImage('img/yahargul.png');
+  backgrounds[1] = loadImage('img/astral.png');
+  backgrounds[2] = loadImage('img/cainhurst.jpg');
   musica = loadSound('sound/bloodborne.mp3');
 }
 
