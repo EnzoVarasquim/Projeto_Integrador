@@ -154,6 +154,6 @@ function mouseClicked() {
 
   // janela
   if (mouseX > 420 && mouseX < 640 && mouseY > 20 && mouseY < 150) {
-    window.location.href = 'index_1.html';
+    window.location.href = 'index.html';
   }
 }
