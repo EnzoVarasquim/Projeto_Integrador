@@ -1,0 +1,81 @@
+/* index 1 */
+.tema-bloodborne{
+  background:#111;
+  color:#d6d6d6;
+}
+.tema-bloodborne nav{
+  background:#1a1a1a !important;
+}
+.tema-bloodborne h1{
+  color:#9b1c1c !important;
+}
+.tema-bloodborne p {
+  color:#9b1c1c !important;
+}
+
+/* index 2 */
+.tema-portal{
+  background:#f2f2f2;
+}
+.tema-portal h1{
+  color:#ff7b00 !important;
+}
+.tema-portal p{
+  color:#ff7b00 !important;
+}
+
+/* index 3 */
+.tema-fma{
+  background:#e6dcc8;
+}
+.tema-fma h1{
+  color:#b68a1f !important;
+}
+.tema-fma p{
+  color:#b68a1f !important;
+}
+
+/* index 4 */
+.tema-outerwilds{
+  background:#0f1720;
+}
+.tema-outerwilds h1{
+  color:#ffb347 !important;
+}
+.tema-outerwilds p{
+  color:#ffb347 !important;
+}
+
+/* index 5 */
+.tema-hailmary{
+  background:#06141f;
+}
+.tema-hailmary h1{
+  color:#55ff88 !important;
+}
+.tema-hailmary p{
+  color:#55ff88 !important;
+}
+
+
+/* index 6 */
+.tema-floresta{
+  background:#0d120d;
+}
+.tema-floresta h1{
+  color:#4f8f4f !important;
+}
+.tema-floresta p{
+  color:#4f8f4f !important;
+}
+
+/* index 7 */
+.tema-prisao{
+  background:#2b2f33;
+}
+.tema-prisao h1{
+  color:#9ea7af !important;
+}
+.tema-prisao p{
+  color:#9ea7af !important;
+}
