@@ -5,7 +5,7 @@ let estrelas = [];
 
 function preload(){
   
-  OWbackground = loadImage('../img/background.jpg');
+  OWbackground = loadImage('img/background.jpg');
   
   banjo = loadSound('sound/travelers-banjo.mp3');
   drums = loadSound('sound/travelers-drums.mp3');
@@ -270,6 +270,6 @@ function mouseClicked() {
   let solY = height/2 - 30;
 
   if( mouseX > solX - 25 && mouseX < solX + 25 && mouseY > solY - 25 && mouseY < solY + 25){
-    window.location.href = "index_1.html";
+    window.location.href = "index.html";
   }
 }
