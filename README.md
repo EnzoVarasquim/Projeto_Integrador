@@ -23,7 +23,7 @@ Projeto desenvolvido utilizando HTML, CSS, Bootstrap e p5.js com o objetivo de c
 
 ## Estrutura
 
-text
+```text
 Projeto_Integrador/
 │
 ├── index.html
@@ -43,6 +43,7 @@ Projeto_Integrador/
 ├── sketch_7.js
 │
 └── style.css
+```
 
 ## Acesso
 
