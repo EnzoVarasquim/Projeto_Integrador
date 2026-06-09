@@ -53,25 +53,15 @@ function draw() {
 
 function Bloodborne() {
 
-  let ponta1x = cos(-90) * 190;
-  let ponta1y = sin(-90) * 190;
-  let ponta2x = cos(-90 + 72) * 190;
-  let ponta2y = sin(-90 + 72) * 190;
-  let ponta3x = cos(-90 + 144) * 190;
-  let ponta3y = sin(-90 + 144) * 190;
-  let ponta4x = cos(-90 + 216) * 190;
-  let ponta4y = sin(-90 + 216) * 190;
-  let ponta5x = cos(-90 + 288) * 190;
-  let ponta5y = sin(-90 + 288) * 190;
-
   stroke(0, 150, 255);
   strokeWeight(5);
   strokeCap(ROUND);
-  line(ponta1x, ponta1y, ponta3x, ponta3y);
-  line(ponta3x, ponta3y, ponta5x, ponta5y);
-  line(ponta5x, ponta5y, ponta2x, ponta2y);
-  line(ponta2x, ponta2y, ponta4x, ponta4y);
-  line(ponta4x, ponta4y, ponta1x, ponta1y);
+  
+  line(0, -190, 112, 154);
+  line(112, 154, -181, -59);
+  line(-181, -59, 181, -59);
+  line(181, -59, -112, 154);
+  line(-112, 154, 0, -190);
 
   stroke(255, 200, 40);
   strokeWeight(2);
@@ -196,4 +186,5 @@ function mousePressed() {
   if (mouseX > 740 && mouseX < 1060 && mouseY > 130 && mouseY < 530) {
     window.location.href = "index_3.html";
   }
+}
 }
